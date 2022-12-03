@@ -11,19 +11,6 @@ list.pop
 
 totalScore = 0
 
-#Op
-# A = Rock
-# B = Paper
-# C = Scissors
-
-# X = lose 0
-# Y = draw 3
-# z = win 6
-
-# Rock = 1
-# Paper = 2
-# Scissors = 3
-
 cond = new Map
 cond.set "A X", 3
 cond.set "A Y", 4
