@@ -16,6 +16,8 @@ evalPoints = (x) ->
         return x.charCodeAt(0) - 64 + 26
     else if(/^[a-z]*$/.test(x))
         return x.charCodeAt(0) - 96
+
+        
 for i in list
     m = i.length / 2
     left = i[0..(m - 1)]
