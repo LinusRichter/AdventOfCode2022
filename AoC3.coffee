@@ -1,6 +1,5 @@
 fs = require 'fs'
 config = 'input_day_3.txt'
-#config = 'test.txt'
 list = []
 
 foo = ->
@@ -17,7 +16,7 @@ evalPoints = (x) ->
     else if(/^[a-z]*$/.test(x))
         return x.charCodeAt(0) - 96
 
-        
+
 for i in list
     m = i.length / 2
     left = i[0..(m - 1)]
