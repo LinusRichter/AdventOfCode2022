@@ -21,12 +21,11 @@ for i in list
     firstArray = [firstMin..firstMax]
     secondArray = [secondMin..secondMax]
 
-    if firstArray.every((i) -> secondArray.includes(i))
+    isIn = false
+    for k in firstArray
+        if k in secondArray
+            isIn = true
+    if isIn
         counter++
-    else if secondArray.every((i) -> firstArray.includes(i))
-        counter++
 
-console.log "AoC_Day4_Part1: " + counter
-
-
-
+console.log "AoC_Day4_Part2: " + counter
