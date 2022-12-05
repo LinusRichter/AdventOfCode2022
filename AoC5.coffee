@@ -7,10 +7,10 @@ foo = ->
     fs.readFileSync config, 'utf8'
 test = foo()
 
+result = ""
+
 list = test.split("\n")
 list = list[10...]
-
-result = ""
 
 #depends on your puzzle-input
 one = ["S", "C", "V", "N"]
