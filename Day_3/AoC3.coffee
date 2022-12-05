@@ -21,7 +21,6 @@ for i in list
     m = i.length / 2
     left = i[0..(m - 1)]
     right = i[m...]
-    console.log left + " : " + right
     for l in left
         if l in right
             sum += evalPoints(l)
