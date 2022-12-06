@@ -9,7 +9,7 @@ test = foo()
 
 list = test.split("\n")
 line = Array.from(list[0])
-stack = ['l', 'r', 'g', 'r']
+stack = line[0..3]
 
 index = 0
 
