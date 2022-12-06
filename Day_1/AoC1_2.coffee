@@ -30,9 +30,6 @@ addUp = ->
     thmost = tmp
   else
 
-
-      
-
 for i in list
   if i.length == 0
     addUp()
